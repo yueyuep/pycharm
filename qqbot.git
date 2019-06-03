@@ -1,0 +1,2725 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-FCg44VGg5ax/5MpZ8otwiPE+/tG1/Sq67mKkl6agbqgoScZtJyXhQSFQMIJfOHMZZ+yXDINb8nEiws60SiLohg==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-5aa6d9885579bb2359f66266aee26f3b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-TgKanqz7DGdDP4AzIYUrO8HotYJQqK095FgSwOka1FxAjgyD7Vf4DuZunJt1bZt8BajtoaKAxCK/kzFwKJdWlA==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-558080f77c5e1ef1c73e9aac93ccfb39.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-vziz6Jjw591pyA52+2EoS07YE63bIc0zkvSG4yIM9edY2ArBBBIwvTw49H8rn4Z+YLbBw5LzBWSFwoZkxQK+0A==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-3ba3ae12a2f85a6290c97a963107cc97.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - pandolia/qqbot: QQBot: A conversation robot base on Tencent&#39;s SmartQQ</title>
+    <meta name="description" content="QQBot: A conversation robot base on Tencent&#39;s SmartQQ - pandolia/qqbot">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/13767061?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="pandolia/qqbot" /><meta property="og:url" content="https://github.com/pandolia/qqbot" /><meta property="og:description" content="QQBot: A conversation robot base on Tencent&#39;s SmartQQ - pandolia/qqbot" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="7496:1FAC:1CCC2E:349A02:5BCD7F94" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="7496:1FAC:1CCC2E:349A02:5BCD7F94" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NmUxZjE3YTc1ZDU5YmZhYzZmOTA5NjMyZmU5ZGE0YzcxY2M1MTVmYzhhMmUzZjQ5OWJiNDBhZDI1ZjY4ZjVjYXx7InJlbW90ZV9hZGRyZXNzIjoiMTI0LjExNC4yMjkuNjciLCJyZXF1ZXN0X2lkIjoiNzQ5NjoxRkFDOjFDQ0MyRTozNDlBMDI6NUJDRDdGOTQiLCJ0aW1lc3RhbXAiOjE1NDAxOTQxOTcsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
+
+  <meta name="html-safe-nonce" content="544d6d7dfe2de2ac0b438e272b804896e0220462">
+
+  <meta http-equiv="x-pjax-version" content="5694c6469a89a10d6f22867d4d877bfb">
+  
+
+      <link href="https://github.com/pandolia/qqbot/commits/master.atom" rel="alternate" title="Recent Commits to qqbot:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/pandolia/qqbot git https://github.com/pandolia/qqbot.git">
+
+  <meta name="octolytics-dimension-user_id" content="13767061" /><meta name="octolytics-dimension-user_login" content="pandolia" /><meta name="octolytics-dimension-repository_id" content="64481146" /><meta name="octolytics-dimension-repository_nwo" content="pandolia/qqbot" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="64481146" /><meta name="octolytics-dimension-repository_network_root_nwo" content="pandolia/qqbot" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/pandolia/qqbot" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="64481146" data-scoped-search-url="/pandolia/qqbot/search" data-unscoped-search-url="/search" action="/pandolia/qqbot/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=0cRsdxQ1uELi5n3bEKHgifevaT5ixZvmvfxN7ZKqMBpYNkYq/sqKPTM02JdS5ykzwO9ao5a61ah2+kSCMpDmlQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item" role="option">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="">
+                    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+                      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+                    </div>
+
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" role="listbox" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" >
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fpandolia%2Fqqbot" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpandolia%2Fqqbot"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/pandolia/qqbot/watchers"
+     aria-label="202 users are watching this repository">
+    202
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpandolia%2Fqqbot"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/pandolia/qqbot/stargazers"
+      aria-label="3081 users starred this repository">
+      3,081
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpandolia%2Fqqbot"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/pandolia/qqbot/network/members" class="social-count"
+       aria-label="810 users forked this repository">
+      810
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/pandolia">pandolia</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/pandolia/qqbot">qqbot</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /pandolia/qqbot" href="/pandolia/qqbot">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /pandolia/qqbot/issues" href="/pandolia/qqbot/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">40</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /pandolia/qqbot/pulls" href="/pandolia/qqbot/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /pandolia/qqbot/projects" href="/pandolia/qqbot/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts /pandolia/qqbot/pulse" href="/pandolia/qqbot/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ckL/G+mtKAkRKQlRMiA9dOwaMwe77xTEoRmRJa+OgxmSWJ1+238W4SRyXirotWu2yloiM5JgU27Lz+Do9az8lg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          QQBot: A conversation robot base on Tencent's SmartQQ
+        </span>
+  </div>
+</div>
+
+    <div class="repository-topics-container mt-2 mb-3 js-topics-list-container">  <div class="list-topics-container f6">
+      <a href="/topics/qqbot" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:qqbot">
+        qqbot
+      </a>
+      <a href="/topics/smartqq" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:smartqq">
+        smartqq
+      </a>
+      <a href="/topics/webqq" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:webqq">
+        webqq
+      </a>
+      <a href="/topics/python" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:python">
+        python
+      </a>
+      <a href="/topics/chatbot" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:chatbot">
+        chatbot
+      </a>
+      <a href="/topics/chat" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:chat">
+        chat
+      </a>
+      <a href="/topics/qq" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:qq">
+        qq
+      </a>
+  </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/pandolia/qqbot/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                426
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/pandolia/qqbot/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              5
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/pandolia/qqbot/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.685 1.72a2.49 2.49 0 0 0-1.76-.726H3.48A2.5 2.5 0 0 0 .994 3.48v2.456c0 .656.269 1.292.726 1.76l6.024 6.024a.99.99 0 0 0 1.402 0l4.563-4.563a.99.99 0 0 0 0-1.402L7.685 1.72zM2.366 7.048a1.54 1.54 0 0 1-.467-1.123V3.48c0-.874.716-1.58 1.58-1.58h2.456c.418 0 .825.159 1.123.467l6.104 6.094-4.702 4.702-6.094-6.114zm.626-4.066h1.989v1.989H2.982V2.982h.01z"/></svg>
+            <span class="num text-emphasized">
+              78
+            </span>
+            releases
+          </a>
+        </li>
+
+
+        <li>
+            <a href="/pandolia/qqbot/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
+    <span class="num text-emphasized">
+      21
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/pandolia/qqbot/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                View license
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/pandolia/qqbot/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                  <span class="lang">Python</span>
+                  <span class="percent">95.9%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pandolia/qqbot/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                  <span class="lang">HTML</span>
+                  <span class="percent">3.8%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pandolia/qqbot/search?l=shell"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#89e051;"></span>
+                  <span class="lang">Shell</span>
+                  <span class="percent">0.3%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <button type="button" class="d-flex p-0 repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Python 95.9%" style="width:95.9%; background-color:#3572A5;" itemprop="keywords">Python</span>
+      <span class="language-color" aria-label="HTML 3.8%" style="width:3.8%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+      <span class="language-color" aria-label="Shell 0.3%" style="width:0.3%; background-color:#89e051;" itemprop="keywords">Shell</span>
+  </button>
+
+
+
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/pandolia/qqbot/tree/add-events"
+               data-name="add-events"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                add-events
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/pandolia/qqbot/tree/fix-fetch-problems"
+               data-name="fix-fetch-problems"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                fix-fetch-problems
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/pandolia/qqbot/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/pandolia/qqbot/tree/remove-flask"
+               data-name="remove-flask"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                remove-flask
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/pandolia/qqbot/tree/yange2"
+               data-name="yange2"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                yange2
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.10"
+              data-name="v2.3.10"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.10">
+                v2.3.10
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.9"
+              data-name="v2.3.9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.9">
+                v2.3.9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.8"
+              data-name="v2.3.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.8">
+                v2.3.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.7"
+              data-name="v2.3.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.7">
+                v2.3.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.6"
+              data-name="v2.3.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.6">
+                v2.3.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.5"
+              data-name="v2.3.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.5">
+                v2.3.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.4"
+              data-name="v2.3.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.4">
+                v2.3.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.3"
+              data-name="v2.3.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.3">
+                v2.3.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.2"
+              data-name="v2.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.2">
+                v2.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.3.1"
+              data-name="v2.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.1">
+                v2.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.18"
+              data-name="v2.2.18"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.18">
+                v2.2.18
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.17"
+              data-name="v2.2.17"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.17">
+                v2.2.17
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.16"
+              data-name="v2.2.16"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.16">
+                v2.2.16
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.15"
+              data-name="v2.2.15"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.15">
+                v2.2.15
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.14"
+              data-name="v2.2.14"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.14">
+                v2.2.14
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.13"
+              data-name="v2.2.13"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.13">
+                v2.2.13
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.12"
+              data-name="v2.2.12"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.12">
+                v2.2.12
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.11"
+              data-name="v2.2.11"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.11">
+                v2.2.11
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.10"
+              data-name="v2.2.10"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.10">
+                v2.2.10
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.9"
+              data-name="v2.2.9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.9">
+                v2.2.9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.8"
+              data-name="v2.2.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.8">
+                v2.2.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.7"
+              data-name="v2.2.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.7">
+                v2.2.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.6"
+              data-name="v2.2.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.6">
+                v2.2.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.5"
+              data-name="v2.2.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.5">
+                v2.2.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.4"
+              data-name="v2.2.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.4">
+                v2.2.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.3"
+              data-name="v2.2.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.3">
+                v2.2.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.2"
+              data-name="v2.2.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.2">
+                v2.2.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.2.1"
+              data-name="v2.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.1">
+                v2.2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.21"
+              data-name="v2.1.21"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.21">
+                v2.1.21
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.20"
+              data-name="v2.1.20"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.20">
+                v2.1.20
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.19"
+              data-name="v2.1.19"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.19">
+                v2.1.19
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.18"
+              data-name="v2.1.18"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.18">
+                v2.1.18
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.17"
+              data-name="v2.1.17"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.17">
+                v2.1.17
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.16"
+              data-name="v2.1.16"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.16">
+                v2.1.16
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.15"
+              data-name="v2.1.15"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.15">
+                v2.1.15
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.14"
+              data-name="v2.1.14"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.14">
+                v2.1.14
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.13"
+              data-name="v2.1.13"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.13">
+                v2.1.13
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.12"
+              data-name="v2.1.12"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.12">
+                v2.1.12
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.11"
+              data-name="v2.1.11"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.11">
+                v2.1.11
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.10"
+              data-name="v2.1.10"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.10">
+                v2.1.10
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.9"
+              data-name="v2.1.9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.9">
+                v2.1.9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.8"
+              data-name="v2.1.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.8">
+                v2.1.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.7"
+              data-name="v2.1.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.7">
+                v2.1.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.6"
+              data-name="v2.1.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.6">
+                v2.1.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.5"
+              data-name="v2.1.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.5">
+                v2.1.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.4"
+              data-name="v2.1.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.4">
+                v2.1.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.3"
+              data-name="v2.1.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.3">
+                v2.1.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.2"
+              data-name="v2.1.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.2">
+                v2.1.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.1.1"
+              data-name="v2.1.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.1">
+                v2.1.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.12"
+              data-name="v2.0.12"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.12">
+                v2.0.12
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.11"
+              data-name="v2.0.11"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.11">
+                v2.0.11
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.10"
+              data-name="v2.0.10"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.10">
+                v2.0.10
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.9"
+              data-name="v2.0.9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.9">
+                v2.0.9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.8"
+              data-name="v2.0.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.8">
+                v2.0.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.7"
+              data-name="v2.0.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.7">
+                v2.0.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.6"
+              data-name="v2.0.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.6">
+                v2.0.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.5"
+              data-name="v2.0.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.5">
+                v2.0.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.4"
+              data-name="v2.0.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.4">
+                v2.0.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.3"
+              data-name="v2.0.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.3">
+                v2.0.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.2"
+              data-name="v2.0.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.2">
+                v2.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v2.0.1"
+              data-name="v2.0.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.1">
+                v2.0.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.7"
+              data-name="v1.9.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.7">
+                v1.9.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.6"
+              data-name="v1.9.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.6">
+                v1.9.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.5"
+              data-name="v1.9.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.5">
+                v1.9.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.4"
+              data-name="v1.9.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.4">
+                v1.9.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.3"
+              data-name="v1.9.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.3">
+                v1.9.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.9.0"
+              data-name="v1.9.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.9.0">
+                v1.9.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.7.1"
+              data-name="v1.8.7.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.7.1">
+                v1.8.7.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.7"
+              data-name="v1.8.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.7">
+                v1.8.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.6"
+              data-name="v1.8.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.6">
+                v1.8.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.5"
+              data-name="v1.8.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.5">
+                v1.8.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.4"
+              data-name="v1.8.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.4">
+                v1.8.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.3"
+              data-name="v1.8.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.3">
+                v1.8.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.2"
+              data-name="v1.8.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.2">
+                v1.8.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.8.1"
+              data-name="v1.8.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.8.1">
+                v1.8.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.7.3"
+              data-name="v1.7.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.7.3">
+                v1.7.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.7.2"
+              data-name="v1.7.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.7.2">
+                v1.7.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/pandolia/qqbot/tree/v1.7.1"
+              data-name="v1.7.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.7.1">
+                v1.7.1
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+
+    <a href="/pandolia/qqbot/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+  
+
+    <details class="get-repo-select-menu js-get-repo-select-menu position-relative details-overlay details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect value="https://github.com/pandolia/qqbot.git" aria-label="Clone this repository at https://github.com/pandolia/qqbot.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/pandolia/qqbot.git" aria-label="Copy to clipboard" class="btn btn-sm">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/pandolia/qqbot/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details d-flex">
+    
+<div class="AvatarStack flex-self-start AvatarStack--two">
+  <div class="AvatarStack-body" aria-label="femj007 and pandolia (non-author committer)">
+
+        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=26188861" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/femj007">
+          <img height="20" width="20" alt="@femj007" src="https://avatars1.githubusercontent.com/u/26188861?s=60&amp;v=4" />
+</a>
+        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=13767061" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pandolia">
+          <img height="20" width="20" alt="@pandolia" src="https://avatars2.githubusercontent.com/u/13767061?s=60&amp;v=4" />
+</a>  </div>
+</div>
+
+    <div class="flex-auto f6 mr-3">
+      
+      <a href="/pandolia/qqbot/commits?author=femj007"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by femj007">femj007</a>
+
+
+   and   <a href="/pandolia/qqbot/commits?author=pandolia"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by pandolia">pandolia</a>
+
+  
+
+
+        <a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">plugins (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="362870519" data-permission-text="Issue title is private" data-url="https://github.com/pandolia/qqbot/issues/366" href="https://github.com/pandolia/qqbot/pull/366">#366</a><a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">)</a>
+          <span class="hidden-text-expander inline">
+            <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+          </span>
+
+        <div class="commit-desc"><pre class="text-small">* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。</pre></div>
+    </div>
+    <div class="no-wrap">
+      Latest commit
+      <a class="commit-tease-sha" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917" data-pjax>
+        289f896
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2018-10-01T08:54:53Z">Oct 1, 2018</relative-time></span>
+    </div>
+  </div>
+
+
+
+<div class="file-wrap">
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/pandolia/qqbot/tree/289f896a01e5dbc89a256f7c88715d88fd446917">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="doc-data" id="e7077a24bd622fa040e1ebfb37810f44-a858701963084f81865216f39cc0bc5cca1d3c0b" href="/pandolia/qqbot/tree/master/doc-data">doc-data</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="onExpire改为onExit" class="message" href="/pandolia/qqbot/commit/963dab00c72055aab8b2685b71a3867f3c6c94ea">onExpire改为onExit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-12T14:32:24Z">Jun 12, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="plugins-in-dev" id="6e614beca04c34dbc06af12fa2831a8a-87400cacbb1457476f6b0e869390d33136f7cec9" href="/pandolia/qqbot/tree/master/plugins-in-dev">plugins-in-dev</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="v2.3.2" class="message" href="/pandolia/qqbot/commit/365593f2c6c9f77e6be15dc8c2b2b75fb6427e96">v2.3.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-13T00:04:05Z">Jun 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="qqbot" id="be7b0b2bacd466ee925efcbf13d3c5a4-d1072e14e3279760e50b9a1e65ebb6e1c906f325" href="/pandolia/qqbot/tree/master/qqbot">qqbot</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">plugins (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="362870519" data-permission-text="Issue title is private" data-url="https://github.com/pandolia/qqbot/issues/366" data-hovercard-type="pull_request" data-hovercard-url="/pandolia/qqbot/pull/366/hovercard" href="https://github.com/pandolia/qqbot/pull/366">#366</a><a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-10-01T08:54:53Z">Oct 1, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-62a0db2ad34abf0f50b46669dbd86766f89a21be" href="/pandolia/qqbot/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="增加passwordlogin插件" class="message" href="/pandolia/qqbot/commit/5ee2759736b8208174ba947ed08f928c56d2fd3e">增加passwordlogin插件</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-21T12:03:39Z">Nov 21, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-30904a139e1a463a07b5df81352a8c177aee67a4" itemprop="license" href="/pandolia/qqbot/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="增加python3的支持" class="message" href="/pandolia/qqbot/commit/dd48ea8189caa47628074f67ed3ab2cf0d304c12">增加python3的支持</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-03T13:44:34Z">Mar 3, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.MD" id="26205fa396afae7e698346556c23f256-c46ffe227a3462e7bc6f90f6c48728ca0424571a" href="/pandolia/qqbot/blob/master/README.MD">README.MD</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修改文档" class="message" href="/pandolia/qqbot/commit/31b464ef05849696b150363492776d64e050c244">修改文档</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-06-21T11:37:02Z">Jun 21, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="autotest.py" id="6680f19784b6bc7851f920db572af8d1-512c8e66be4efe0c71fe6e2add384dba03e290b0" href="/pandolia/qqbot/blob/master/autotest.py">autotest.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="v2.1版重构，功能、速度大幅加强，接口不再兼容2.0" class="message" href="/pandolia/qqbot/commit/31a52f40114c48e5c496177d65d7a9bc25c38234">v2.1版重构，功能、速度大幅加强，接口不再兼容2.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-21T10:11:23Z">Mar 21, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="changes" id="5a9d18bb87ff12835dc844883c5c3ebe-d80be107cac1f7b4308df1012bff123098cf2a84" href="/pandolia/qqbot/blob/master/changes">changes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修复Poll协议变更引起的错误" class="message" href="/pandolia/qqbot/commit/44c5469bbab56d8314c2407fdfe47c2d9189bbab">修复Poll协议变更引起的错误</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-19T10:29:21Z">Jan 19, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="faq.md" id="4a1318da06786ac52626178ca960109e-77a2a65ff5b5db3f7e4642644aefbbd310147ca6" href="/pandolia/qqbot/blob/master/faq.md">faq.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修改文档、增加常见问题" class="message" href="/pandolia/qqbot/commit/4de8f767031b7a649285ce00b7101ab52f821c32">修改文档、增加常见问题</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-07T20:14:36Z">Aug 7, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="hook-ctypes.macholib.py" id="80e450de203485d1c86d47f6f8d23ee7-214766f4eec2abcff51e0dfbb9268575270ffed0" href="/pandolia/qqbot/blob/master/hook-ctypes.macholib.py">hook-ctypes.macholib.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修改readme" class="message" href="/pandolia/qqbot/commit/776aef06392fdffc9c71104443b0c13ee3726eec">修改readme</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-06T13:01:56Z">Apr 6, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="main.py" id="5bc02cefb3ea9e27f1a6776eabd1935d-dad77c6e4ccbfc91bf868ef8fb393b299a2ec072" href="/pandolia/qqbot/blob/master/main.py">main.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="增加文本模式显示二维码、感谢@xrdavies" class="message" href="/pandolia/qqbot/commit/921fc6f2b9f1c78af25ca8ab8031cabde44c3a96">增加文本模式显示二维码、感谢</a><a href="https://github.com/xrdavies" class="user-mention">@xrdavies</a>
+
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-02T13:23:14Z">Apr 2, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="prettytable.png" id="97cafe1ed2e5e4ae512b64f49cc62d38-dd09207525208beb3cda5143afdee9c74e043721" href="/pandolia/qqbot/blob/master/prettytable.png">prettytable.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="采用prettytable输出list命令的结果" class="message" href="/pandolia/qqbot/commit/696522d22f59517d2da2e09bb0be55100229042a">采用prettytable输出list命令的结果</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-28T05:56:55Z">Apr 28, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="pycharm-loader.py" id="6242c3228682286b12249226d5aec580-a1c7d1c501576f49f26be4292364a03400279861" href="/pandolia/qqbot/blob/master/pycharm-loader.py">pycharm-loader.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修改pycharm-loader.py，感谢@SuperMarioSF" class="message" href="/pandolia/qqbot/commit/31d5afda1933c025b302c65fb783e0c49cb3093d">修改pycharm-loader.py，感谢</a><a href="https://github.com/SuperMarioSF" class="user-mention">@SuperMarioSF</a>
+
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-15T19:39:07Z">Jun 15, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="qcontact-attr.md" id="ef242a050dda70dc96c5e707a331384c-dd03182eb6cfd3f4fc843cbbcc8c28ac00fbac41" href="/pandolia/qqbot/blob/master/qcontact-attr.md">qcontact-attr.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修改文档" class="message" href="/pandolia/qqbot/commit/c45767df01bdf3449a97271cfb2859af38a0eec2">修改文档</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-14T23:10:10Z">Jun 14, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="qq_auto_bot.py" id="d3add780a1a004055f9dd1bbfb1926c9-b41611ebf8860c96e622a24e962086a455877cf4" href="/pandolia/qqbot/blob/master/qq_auto_bot.py">qq_auto_bot.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">plugins (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="362870519" data-permission-text="Issue title is private" data-url="https://github.com/pandolia/qqbot/issues/366" data-hovercard-type="pull_request" data-hovercard-url="/pandolia/qqbot/pull/366/hovercard" href="https://github.com/pandolia/qqbot/pull/366">#366</a><a data-pjax="true" title="plugins (#366)
+
+* QQ机器人调用文件
+
+调用图灵机器人API接口实现QQ自动机器人
+
+* leifeng_plug
+
+小雷锋QQ机器人插件，实现自动回复已有问题，搭载图灵机器人API。
+
+* smallV
+
+实现自动回复聊天的最简单插件。" class="message" href="/pandolia/qqbot/commit/289f896a01e5dbc89a256f7c88715d88fd446917">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-10-01T08:54:53Z">Oct 1, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="qqbot-venv.sh" id="4ba98b6243cd1cfecdcb702b0dbf7de2-000f13e48152f1521345742916ef8752583ec7ee" href="/pandolia/qqbot/blob/master/qqbot-venv.sh">qqbot-venv.sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge branch 'master' of https://github.com/gtt116/qqbot" class="message" href="/pandolia/qqbot/commit/5210646bca01275fbb8a9827f2375426d3fc12fb">Merge branch 'master' of</a> <a href="/pandolia/qqbot/commit/5210646bca01275fbb8a9827f2375426d3fc12fb">https://github.com/gtt116/qqbot</a>
+
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-30T13:38:42Z">Mar 30, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="requirements.txt" id="b4ef698db8ca845e5845c4618278f29a-17dd6ff62c7e9bef06a5a3a7a4ecbbefc48eec68" href="/pandolia/qqbot/blob/master/requirements.txt">requirements.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update requirements.txt" class="message" href="/pandolia/qqbot/commit/155f1bddc075d9950968bdb3941162526d9505c4">Update requirements.txt</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-08-24T00:52:59Z">Aug 24, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="sample.py" id="086ae17ebd1d85217865fc991fdc5fb8-8166af1cd9c0b42328cfd5aa77b806351cbabfc3" href="/pandolia/qqbot/blob/master/sample.py">sample.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add-events" class="message" href="/pandolia/qqbot/commit/ee573600f5746b04528991527cc39c80935d322b">add-events</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-11T02:22:53Z">Jun 11, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.cfg" id="380c6a8ebbbce17d55d50ef17d3cf906-b88034e414bc7b80d686e3c94d516305348053ea" href="/pandolia/qqbot/blob/master/setup.cfg">setup.cfg</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="增加python3的支持" class="message" href="/pandolia/qqbot/commit/dd48ea8189caa47628074f67ed3ab2cf0d304c12">增加python3的支持</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-03T13:44:34Z">Mar 3, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.py" id="2eeaed663bd0d25b7e608891384b7298-3b43e8fa57d5d8295866a7cbfcb6ddc9fa9c99ab" href="/pandolia/qqbot/blob/master/setup.py">setup.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="修复Poll协议变更引起的错误" class="message" href="/pandolia/qqbot/commit/44c5469bbab56d8314c2407fdfe47c2d9189bbab">修复Poll协议变更引起的错误</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-19T10:29:21Z">Jan 19, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="testbot.txt" id="7e9644ead9f617d480c9e3bdbb43277a-d59bd0ca87ed97d79c039d3a581c1cd42a149406" href="/pandolia/qqbot/blob/master/testbot.txt">testbot.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="list等命令的参数增加like字段、提供强大的搜索功能" class="message" href="/pandolia/qqbot/commit/4494890cbaf8cffef88bc02184d4871951c4371a">list等命令的参数增加like字段、提供强大的搜索功能</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-22T05:30:18Z">Apr 22, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="uploadtopip.sh" id="e37aff1c015408bdc5714fc4b8ffb9f2-ab0d1a642049d955edaf78afc5e6bc1fe8b0eb26" href="/pandolia/qqbot/blob/master/uploadtopip.sh">uploadtopip.sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="增加python3的支持" class="message" href="/pandolia/qqbot/commit/dd48ea8189caa47628074f67ed3ab2cf0d304c12">增加python3的支持</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-03T13:44:34Z">Mar 3, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="urltestbot.html" id="419c40e9c61d4d5cb21033a68bd59cc2-f4bc47be17fe537f391b9889867bb1372e21ee6d" href="/pandolia/qqbot/blob/master/urltestbot.html">urltestbot.html</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="采用prettytable输出list命令的结果" class="message" href="/pandolia/qqbot/commit/d5e6bab7d32fa37add5c904f680826e34b5fea91">采用prettytable输出list命令的结果</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-28T05:01:29Z">Apr 28, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="Box Box--condensed instapaper_body MD">
+    <div class="Box-header px-2 clearfix">
+      <h3 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+        README.MD
+      </h3>
+    </div>
+      <div class="Box-body p-6">
+        <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-一介绍" class="anchor" aria-hidden="true" href="#一介绍"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>一、介绍</h2>
+<p>qqbot 是一个用 python 实现的、基于腾讯 SmartQQ 协议的 QQ 机器人，可运行在 Linux, Windows 和 Mac OSX 平台下。</p>
+<p>本项目 github 地址： <a href="https://github.com/pandolia/qqbot">https://github.com/pandolia/qqbot</a></p>
+<p>你可以通过扩展 qqbot 来实现：</p>
+<ul>
+<li>监控、收集 QQ 消息</li>
+<li>自动消息推送</li>
+<li>聊天机器人</li>
+<li>通过 QQ 远程控制你的设备</li>
+</ul>
+<h2><a id="user-content-二安装方法" class="anchor" aria-hidden="true" href="#二安装方法"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>二、安装方法</h2>
+<p>在 Python 2.7/3.4+ 下使用，用 pip 安装：</p>
+<pre><code>pip install qqbot
+</code></pre>
+<p>或者下载 <a href="https://github.com/pandolia/qqbot/archive/master.zip">源码</a> 解压后 cd 到该目录并运行： <code>pip install</code>.</p>
+<h2><a id="user-content-三使用方法" class="anchor" aria-hidden="true" href="#三使用方法"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>三、使用方法</h2>
+<h5><a id="user-content-1-启动-qqbot" class="anchor" aria-hidden="true" href="#1-启动-qqbot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 启动 QQBot</h5>
+<p>在命令行输入： <strong>qqbot</strong> ，即可启动一个 QQBot 。</p>
+<p>启动过程中会自动弹出二维码图片，需要用手机 QQ 客户端扫码并授权登录。启动成功后，会将本次登录信息保存到本地文件中，下次启动时，可以输入： <strong>qqbot -q qq号码</strong> ，先尝试从本地文件中恢复登录信息（不需要手动扫码），只有恢复不成功或登录信息已过期时才会需要手动扫码登录。一般来说，保存的登录信息将在 2 天之后过期。</p>
+<p>注意： Linux 下，需要系统中有 gvfs-open 或者 shotwell 命令才能自动弹出二维码图片（一般安装有 GNOME 虚拟文件系统 gvfs 的系统中都会含这两个命令之一）。 Windows10 下，需要系统中已设置了 png 图片文件的默认打开程序才能自动弹出二维码图片。</p>
+<p>若系统无法自动弹出二维码图片，可以手动打开图片文件进行扫码，也可以将二维码显示模式设置为 邮箱模式 、 服务器模式 或 文本模式 进行扫码，详见本文档的第七节。</p>
+<h5><a id="user-content-2-操作-qqbot" class="anchor" aria-hidden="true" href="#2-操作-qqbot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 操作 QQBot</h5>
+<p>QQBot 启动后，在另一个控制台窗口使用 qq 命令操作 QQBot ，目前提供以下命令：</p>
+<pre><code>1） 帮助、停机和重启命令
+
+    qq help|stop|restart|fresh-restart
+
+
+2） 联系人查询、搜索命令
+
+    qq list buddy|group|discuss [$cinfo|$clike]
+    ( $cinfo --&gt; $qq|$name|$key=$val )
+    ( $clike --&gt; :like:$qq|:like:$name|$key:like:$name )
+
+    qq list group-member|discuss-member $oinfo|$olike [$cinfo|$clike]
+    ( $oinfo --&gt; $oqq|$oname|$okey=$oval )
+    ( $cinfo --&gt; $qq|$name|$key=$val )
+    ( $olike --&gt; :like:$oqq|:like:$oname|$okey:like:$oname )
+    ( $clike --&gt; :like:$qq|:like:$name|$key:like:$name )
+
+
+3） 联系人更新命令
+
+    qq update buddy|group|discuss
+
+    qq update group-member|discuss-member $ginfo
+
+
+4） 消息发送命令
+
+    qq send buddy|group|discuss $rinfo $message
+
+
+5） 加载/卸载/显示插件
+
+    qq plug/unplug myplugin
+
+    qq plugins
+</code></pre>
+<p>list 命令提供强大的联系人查询和搜索功能，用法示例如下：</p>
+<pre><code># 列出所有好友
+qq list buddy
+
+# 列出 名称 为 xxx 的群
+qq list group xxx
+
+# 列出备注名为 jack 的好友
+qq list buddy mark=jack
+
+# 列出 群“456班” 的所有成员
+qq list group-member 456班
+
+# 列出 群“456班” 中名片为 “mike” 的成员
+qq list group-member 456班 card=mike
+
+# 列出 讨论组“XX小组” 中名为 jack 的好友
+qq list discuss-member XX小组 jack
+</code></pre>
+<p>其中第三、四个参数如果是 key=val 的格式，则应为 name=xx|nick=xx|mark=xx|card=xx|qq=xx 的格式，如果不是 key=val 的格式，则按以下原则进行处理：若是一串数字，则按 QQ 号进行查询，否则，按名称进行查询。</p>
+<p>如果存在重名现象，会列出所有重名的联系人。如：</p>
+<pre><code>qq list group 机器人测试
+</code></pre>
+<p>将列出所有名为 “机器人测试” 的群。</p>
+<p>如果在 list 命令的第三、四个参数中加入 “:like:” ，则会按部分匹配的模式进行搜索，用法示例如下：</p>
+<pre><code># 列出名称中含有 “李” 的好友
+qq list buddy :like:李
+
+# 列出 QQ 中含有 “234” 的群
+qq list group :like:234
+
+# 列出备注名中含有 jack 的好友
+qq list buddy mark:like:jack
+
+# 列出 群“456班” 的中名称中含有 “李” 的成员
+qq list group-member 456班 :like:李
+
+# 列出 群“456班” 中名片中含有 “mike” 的成员
+qq list group-member 456班 card:like:mike
+
+# 列出的 讨论组“xx小组” 中名为 jack 的好友
+qq list discuss-member :like:小组 jack
+</code></pre>
+<p>从 v2.2.5 版开始， list 命令采用表格的形式输出联系人列表，其输出样式示例如下：</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/pandolia/qqbot/master/prettytable.png"><img src="https://raw.githubusercontent.com/pandolia/qqbot/master/prettytable.png" alt="prettytable.png" style="max-width:100%;"></a></p>
+<p>为保证表格在终端中的显示效果，建议将终端的输出字体设置为 consolas 、且每行可打印的最大字符数大于 120 。另外需要注意：为保证表格的显示效果，当联系人的名称、名片等属性的长度太长或含有特殊字符时，将对这些属性进行截断或过滤后再输出至终端。</p>
+<p>update 命令更新指定的联系人列表，其参数含义和 list 命令相同，如：</p>
+<pre><code># 更新好友列表
+qq update buddy
+
+# 更新群列表
+qq update group
+
+# 更新 群“456班” 的成员列表
+qq update group-member 456班
+</code></pre>
+<p>send 命令中第三个参数和 list 命令中的第三个参数格式一致。要注意，如果有重名现象，会给所有重名的联系人发信息。 另外要注意，第二个参数只能是 buddy/group/discuss ，不能是 group-member/discuss-member 。示例：</p>
+<pre><code># 给 好友“jack” 发消息 “你好”
+qq send buddy jack 你好
+
+# 给 群“198班” 发消息 “大家好”
+qq send group 198班 大家好
+
+# 给 QQ 为 12345 的好友发消息
+qq send buddy 12345 xxx
+
+# 给讨论组发消息
+qq send discuss MyDiscuss hello
+</code></pre>
+<p>可以在消息内容中嵌入“/可爱”等表情关键词来向对方发送表情，详见 <a href="https://github.com/pandolia/qqbot/blob/master/qqbot/facemap.py">facemap.py</a>。还可以在消息内容中使用 <strong>\n,\t</strong> 这两个转义字符（如： send buddy jack 第一行\n第二行）。</p>
+<p>以上所有命令都提供对应的 HTTP API 接口，供 web 前端开发者调用，接口的 url 地址为 <a href="http://127.0.0.1:8188/%7Bcommand%7D" rel="nofollow">http://127.0.0.1:8188/{command}</a> ，只需要将 qq 后面的命令各参数用 "/" 分隔开替换 url 中的 command 就可以了，如: <a href="http://127.0.0.1:8188/send/buddy/jack/hello" rel="nofollow">http://127.0.0.1:8188/send/buddy/jack/hello</a> ，其他示例详见 <a href="https://github.com/pandolia/qqbot/blob/master/urltestbot.html">urltestbot.md</a> 。注意：如果命令中含有中文或特殊字符，需要先进行 url 编码（ utf8 ），例如，调用  <a href="http://127.0.0.1:8188/send/buddy/jack/nihao%20%E4%BD%A0%E5%A5%BD%20wohao" rel="nofollow">http://127.0.0.1:8188/send/buddy/jack/nihao%20%E4%BD%A0%E5%A5%BD%20wohao</a> 将发送消息 ”nihao 你好 wohao“ 。（提示：在 JavaScript 中，可以使用 encodeURIComponent 函数进行编码）。</p>
+<p>另外， QQBot 启动后，用本 QQ 号在其他客户端（如：手机 QQ ）上向某个 群/讨论组 发消息 “--version” ，则 QQBot 会自动在该 群/讨论组 回复： “QQBot-v2.x.x” 。</p>
+<h2><a id="user-content-四实现你自己的-qq-机器人" class="anchor" aria-hidden="true" href="#四实现你自己的-qq-机器人"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>四、实现你自己的 QQ 机器人</h2>
+<p>实现自己的 QQ 机器人非常简单，只需要定义一个自己的消息响应函数并按插件加载。示例代码：</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-c"><span class="pl-c">#</span> -*- coding: utf-8 -*-</span>
+
+<span class="pl-k">def</span> <span class="pl-en">onQQMessage</span>(<span class="pl-smi">bot</span>, <span class="pl-smi">contact</span>, <span class="pl-smi">member</span>, <span class="pl-smi">content</span>):
+    <span class="pl-k">if</span> content <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>-hello<span class="pl-pds">'</span></span>:
+        bot.SendTo(contact, <span class="pl-s"><span class="pl-pds">'</span>你好，我是QQ机器人<span class="pl-pds">'</span></span>)
+    <span class="pl-k">elif</span> content <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>-stop<span class="pl-pds">'</span></span>:
+        bot.SendTo(contact, <span class="pl-s"><span class="pl-pds">'</span>QQ机器人已关闭<span class="pl-pds">'</span></span>)
+        bot.Stop()</pre></div>
+<p>注意，上面注册的响应函数的函数名必须为 “onQQMessage” ，函数参数也必须和上面的一致。</p>
+<p>将以上代码另存为 sample.py （注意保存为 utf8 编码的文件）。放到 ~/.qqbot-tmp/plugins/ 目录下（ <strong>~</strong> 代表用户主目录， win7 下为 C:\Users\xxx ），或系统中可以 import 到的目录下（如 python 的安装目录下的 Lib/site-packages 目录）。</p>
+<p>之后，保持前面的 qqbot 进程运行，在另一个控制台输入 qq plug sample ，则可将此文件中的 onQQMessage 函数注册到 QQBot 的相应事件上去。此时，用另外一个 QQ 向本 QQ 发送消息 <strong>“-hello”</strong>，则会自动回复 <strong>“你好，我是 QQ 机器人”</strong>，发送消息 <strong>“-stop”</strong> 则会关闭 QQ 机器人。</p>
+<p>在控制台输入 qq unplug sample 可以卸载此插件及相应的回调函数。可以同时加载多个插件，此时各插件中的相应函数会依次被调用（但调用顺序和加载次序无关）。</p>
+<p>QQBot 开始运行后，每收到一条 QQ 消息，会将消息来源、消息内容以及一个 QQBot 对象传递给已注册的消息响应函数。其中：</p>
+<pre><code>bot     : QQBot 对象，提供 List/SendTo/Stop/Restart 等接口，详见本文档第五节
+contact : QContact 对象，消息的发送者，具有 ctype/qq/uin/nick/mark/card/name 等属性
+member  : QContact 对象，仅当本消息为 群消息或讨论组消息 时有效，代表实际发消息的成员
+content : str 对象，消息内容
+</code></pre>
+<p>contact 代表消息发送者，其 ctype 属性可以为 <code>buddy</code>/<code>group</code>/<code>discuss</code> ，代表 好友/群/讨论组 对象，表示本消息是 好友消息/群消息/讨论组消息 。</p>
+<p>member 仅当本消息为  群消息或讨论组消息 时有效，代表实际发消息的成员，它的 ctype 属性可以为 <code>group-member</code>/<code>discuss-member</code> ，代表 群成员/讨论组成员 对象。当本消息为 好友消息 时， member 等于 None 。</p>
+<p>contact 和 member 都是 QContact 对象，不同类型的 QContact 对象所具有的属性含义见： <a href="https://github.com/pandolia/qqbot/blob/master/qcontact-attr.md">qcontact-attr</a> 。注意所有 QContact 对象都是 <strong>只读对象</strong> ，只能读取它的属性，不能设置它的属性，也不能向它添加额外的属性。</p>
+<p>可以调用 QQBot 对象的 SendTo 接口向 QContact 对象发送消息，但要注意：只可以向 好友/群/讨论组 发消息， <strong>不可以向 群成员/讨论组成员 发送消息</strong> 。也就是说，只可以调用 bot.SendTo(contact, 'xxx') ， 不可以调用 bot.SendTo(member, 'xxx') 。</p>
+<h2><a id="user-content-五-qqbot-对象的公开接口和属性" class="anchor" aria-hidden="true" href="#五-qqbot-对象的公开接口和属性"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>五、 QQBot 对象的公开接口和属性</h2>
+<p>QQBot 对象提供 List/Update/SendTo/Plug/Unplug/Login/Stop/Restart/FreshRestart 共计 9 个公开接口，这些接口的第一个字母都是大写的。另外，提供一个公开属性 conf 保存全局的配置信息。</p>
+<p>一般情况下，请勿 调用/存取 此对象的其他 方法/属性 。特别的， <strong>请勿在子线程中调用这些接口</strong> 。 以下介绍前 7 个接口和 conf 属性。</p>
+<p>如果需要在 IDE 或 python-shell 中运行或测试以上接口，需要先关闭 qqbot 进程，并在 IDE 或 python-shell 中运行以下代码进行登录：</p>
+<pre><code>&gt;&gt;&gt; from qqbot import _bot as bot
+&gt;&gt;&gt; bot.Login(['-q', '1234'])
+</code></pre>
+<h4><a id="user-content-1-botlisttinfo-cinfo----contact0-contact1--none" class="anchor" aria-hidden="true" href="#1-botlisttinfo-cinfo----contact0-contact1--none"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>（1） bot.List(tinfo, [cinfo]) --&gt; [contact0, contact1, ..., ]/[]/None</h4>
+<p>对应本文档第三节的 list 命令。返回联系人对象（ QContact 对象）列表或者 None 。第一个参数 tinfo 是联系人列表的代号，第二个参数是可选的（和 list 命令的第三个参数格式一致）。</p>
+<p>参数 tinfo 用来代表某个联系人列表，<strong>该参数在联系人的查询中非常重要，请务必理解以下两种情况</strong> ：</p>
+<p><strong>tinfo 的含义（情况1）：</strong> tinfo 可以为 <code>buddy</code>/<code>group</code>/<code>discuss</code> ，分别代表 好友列表/群列表/讨论组列表 。示例：</p>
+<pre><code># 返回 好友列表：
+&gt;&gt;&gt; bot.List('buddy')
+
+# 返回名为 'jack' 的好友的列表：
+&gt;&gt;&gt; bot.List('buddy', 'jack')
+
+# 返回 群列表：
+&gt;&gt;&gt; bot.List('group')
+
+# 返回名为 “机器人测试” 的群的列表：
+&gt;&gt;&gt; bot.List('group', '机器人测试')
+</code></pre>
+<p><strong>tinfo 的含义（情况2）：</strong> tinfo 也可以是一个 ctype 等于 <code>group</code>/<code>discuss</code> 的 QContact 对象，代表该 群/讨论组 的成员列表。如以下第二句和第三句分别返回 群“456班” 的成员列表和该群中名片为 “jack” 的成员列表：</p>
+<pre><code>&gt;&gt;&gt; g = bot.List('group', "456班")[0]   # g 是一个 Group 对象（群“456班”）
+&gt;&gt;&gt; bot.List(g)                         # 返回 群“456班” 的成员列表
+&gt;&gt;&gt; bot.List(g, 'card=jack')            # 返回 群“456班” 中名片为 “jack” 的成员列表
+</code></pre>
+<p>注意上面第三句不允许是 bot.List(g, card='jack') 的格式。</p>
+<p><strong>List 接口的内部执行顺序：</strong> 首先在 QQBot 的联系人数据库内查找 tinfo 所代表的联系人列表；若数据库内已有此列表，则在此列表内进行搜索，并返回一个包含 “此列表中所有和 cinfo 匹配的联系人” 的列表；若数据库内没有此列表，则向 QQ 服务器请求数据获取联系人列表，获取成功后将联系人列表保存到数据库内，然后再进行搜索并返回一个包含 “此列表中所有和 cinfo 匹配的联系人” 的列表；如果在向 QQ 服务器请求数据的过程中出错了，则打印相关的失败信息，并返回 None 。</p>
+<p><strong>List 接口返回值的含义：</strong> 返回一个非空列表表示 tinfo 所指定的联系人列表内所有和 cinfo 匹配的联系人；返回一个空列表表示该联系人列表内没有和 cinfo 匹配的联系人；返回 None 表示向 QQ 服务器请求联系人列表和资料失败，不知道是否有相匹配的联系人。</p>
+<p>调用 List 接口后， <strong>务必</strong> 先根据以上三种情况对返回值进行判断，然后再执行后续代码。</p>
+<p><strong>注意： 当 List 接口返回非空列表时，列表内的元素是 QContact 对象，而不是 str 对象：</strong></p>
+<pre><code>&gt;&gt;&gt; g = bot.List('group')[0]   				# g 是一个 Group 对象
+&gt;&gt;&gt; print([g, type(g), g.qq, g.name, g.uin, g.mark])	# 打印 g 的各项属性
+</code></pre>
+<p>不同类型的 QContact 对象所具有的属性含义见： <a href="https://github.com/pandolia/qqbot/blob/master/qcontact-attr.md">qcontact-attr</a> 。</p>
+<h4><a id="user-content-2-botupdatetinfo----truefalse" class="anchor" aria-hidden="true" href="#2-botupdatetinfo----truefalse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>（2） bot.Update(tinfo) --&gt; True/False</h4>
+<p>Update 接口的参数 tinfo 和 List 接口中的参数含义相同，调用此接口会立即向 QQ 服务器请求相应的联系人列表并更新联系人数据库，并一直阻塞至更新成功。更新最慢的是好友列表，若好友较多可能会阻塞 5 ~ 10 秒。成员列表更新的较快，即便是 2000 人的大群，更新时间仅 1 ~ 2 秒。</p>
+<p>若更新成功，返回 True ，否则，返回 False 。</p>
+<p>示例：</p>
+<pre><code># 更新 好友列表 ：
+&gt;&gt;&gt; bot.Update('buddy')
+
+# 更新 群列表 ：
+&gt;&gt;&gt; bot.Update('group')
+
+# 更新 某个群的成员列表 ：
+&gt;&gt;&gt; gl = bot.List('group', "456班")
+&gt;&gt;&gt; if gl:
+&gt;&gt;&gt;     g = gl[0]
+&gt;&gt;&gt;     bot.Update(g)
+</code></pre>
+<h4><a id="user-content-3-botsendtocontact-content-resendon1202true----向-xx-发消息成功错误" class="anchor" aria-hidden="true" href="#3-botsendtocontact-content-resendon1202true----向-xx-发消息成功错误"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>（3） bot.SendTo(contact, content, resendOn1202=True) --&gt; '向 xx 发消息成功'/'错误：...'</h4>
+<p>向联系人发送消息。第一个参数为 QContact 对象，第二个参数为消息内容。再次提醒： 只可以向 好友/群/讨论组 发消息， <strong>不允许向 群成员/讨论组成员 发消息</strong> 。</p>
+<p>可以在消息内容中嵌入“/微笑”等表情关键词来向对方发送表情，详见 <a href="https://github.com/pandolia/qqbot/blob/master/qqbot/facemap.py">facemap.py</a> 。</p>
+<p>若发送成功，返回字符串（<code>向 xx 发消息成功</code>）。否则，返回含错误原因的字符串（<code>错误：...</code>）。</p>
+<p>发消息时可能会重复发消息，这是因为 QQ 服务器返回代码 1202 的原因。v2.1.17版已针对此问题在 bot.SendTo 接口中增加了一个参数： resendOn1202 ，若此参数为 True （默认值），则发消息时如果 QQ 服务器返回代码 1202 （表明发消息可能失败），还会继续发送 3 次，直至返回代码 0 ， 若此参数为 False ，则不会尝试重发。</p>
+<p>设为 True 在绝大部分情况下能保证消息一定能发出去，但缺点是有时一条消息会重复发送。设为 False 则相反，消息不会重复发送，但有时消息发送不出去。</p>
+<p>总之因为这个 1202 代码的不确定性，没有完美的解决办法。请根据各自的实际情况选择 resendOn1202 的值。</p>
+<p>第一个参数 contact 必须是通过 bot.List 返回的 QContact 对象、或回调函数 onQQMessage 传递进来的第一个参数。示例：</p>
+<pre><code># 向 昵称 为 jack 的好友发消息
+&gt;&gt;&gt; bl = bot.List('buddy', 'jack')
+&gt;&gt;&gt; if bl:
+&gt;&gt;&gt;     b = bl[0]
+&gt;&gt;&gt;     bot.SendTo(b, 'hello')
+</code></pre>
+<h4><a id="user-content-4-botconf" class="anchor" aria-hidden="true" href="#4-botconf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>（4） bot.conf</h4>
+<p>bot.conf 中保存全局的配置信息，各项配置详见本文档第七节。如 bot.conf.termServerPort 保存 QQBot 命令行服务器的端口号， bot.conf.qq 保存本次登录的 QQ 号码。</p>
+<p>注意： bot.conf 中保存的配置信息是只读的，请勿修改这些配置信息。</p>
+<h2><a id="user-content-六-注册回调函数被他人--的通知判断是否是自己发的消息定制定时任务" class="anchor" aria-hidden="true" href="#六-注册回调函数被他人--的通知判断是否是自己发的消息定制定时任务"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>六、 注册回调函数、被他人 @ 的通知、判断是否是自己发的消息、定制定时任务</h2>
+<h4><a id="user-content-注册回调函数" class="anchor" aria-hidden="true" href="#注册回调函数"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>注册回调函数</h4>
+<p>除了上面提到的 onQQMessage 响应函数，还可以注册 onInit/onQrcode/onStartupComplete/onInterval/onUpdate/onPlug/onUnplug/onExit 共计九种事件的回调函数，所有事件的回调函数参数格式、含义及示例详见 <a href="https://github.com/pandolia/qqbot/blob/master/qqbot/plugins/sampleslots.py">sampleslots.py</a> 。</p>
+<p>程序的运行流程以及各回调函数的调用时机如下：</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/pandolia/qqbot/raw/master/doc-data/main.png"><img src="https://github.com/pandolia/qqbot/raw/master/doc-data/main.png" alt="main.png" style="max-width:100%;"></a></p>
+<p>再次提醒：<strong>注册的回调函数的函数名以及函数参数（数量和名称）都不得更改</strong> 。</p>
+<h4><a id="user-content-被群内其他成员--的通知" class="anchor" aria-hidden="true" href="#被群内其他成员--的通知"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>被群内其他成员 @ 的通知</h4>
+<p>QQBot 收到群消息时，会先根据消息内容判断是否有人 @ 自己。如果是，则在消息内容的开头加一个 <code>[@ME]</code> 的标记，再传递给 onQQMessage 函数；否则，将消息内容中的所有 <code>@ME</code> 替换成 <code>@Me</code> 再传给 onQQMessage 。因此，在 onQQMessage 函数内，只需要判断 content 内是否含有 <code>@ME</code> 就知道自己是否被消息发送者 @ 了。例如：</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">onQQMessage</span>(<span class="pl-smi">bot</span>, <span class="pl-smi">contact</span>, <span class="pl-smi">member</span>, <span class="pl-smi">content</span>):
+    <span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">'</span>@ME<span class="pl-pds">'</span></span> <span class="pl-k">in</span> content:
+        bot.SendTo(contact, member.name<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">'</span>，艾特我干嘛呢？<span class="pl-pds">'</span></span>)</pre></div>
+<p>请注意，若群内有另一个成员的名字和自己的名字的开头部分相同（如：自己的名字是 ab ，另一个成员的名字是 abc ），那么当有人 @abc 时，也会误报成 @ME ，在这种情况下，需要修改自己的群名片，以免误报。</p>
+<h4><a id="user-content-判断是否是自己发的消息" class="anchor" aria-hidden="true" href="#判断是否是自己发的消息"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>判断是否是自己发的消息</h4>
+<p>当本 QQ 发消息时， QQBot 也会收到一条同样的消息， bot 对象提供一个 isMe 方法来判断是否是自己发的消息：</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">onQQMessage</span>(<span class="pl-smi">bot</span>, <span class="pl-smi">contact</span>, <span class="pl-smi">member</span>, <span class="pl-smi">content</span>):
+    <span class="pl-k">if</span> bot.isMe(contact, member):
+    <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">'</span>This is me<span class="pl-pds">'</span></span>)</pre></div>
+<h4><a id="user-content-定制定时任务" class="anchor" aria-hidden="true" href="#定制定时任务"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>定制定时任务</h4>
+<p>从 2.1.13 起， qqbot 提供一个功能强大的函数装饰器 -- <code>qqbotsched</code> 来定制定时任务，示例代码：</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> qqbot <span class="pl-k">import</span> qqbotsched
+
+<span class="pl-en">@qqbotsched</span>(<span class="pl-v">hour</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>11,17<span class="pl-pds">'</span></span>, <span class="pl-v">minute</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>55<span class="pl-pds">'</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">mytask</span>(<span class="pl-smi">bot</span>):
+    gl <span class="pl-k">=</span> bot.List(<span class="pl-s"><span class="pl-pds">'</span>group<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>456班<span class="pl-pds">'</span></span>)
+    <span class="pl-k">if</span> gl <span class="pl-k">is</span> <span class="pl-k">not</span> <span class="pl-c1">None</span>:
+        <span class="pl-k">for</span> group <span class="pl-k">in</span> gl:
+            bot.SendTo(group, <span class="pl-s"><span class="pl-pds">'</span>同志们：开饭啦啦啦啦啦啦！！！<span class="pl-pds">'</span></span>)</pre></div>
+<p>以上代码以插件形式加载后，每到 11:55 和 17:55 ，都会自动向 群“456班” 发送消息：“同志们：开饭啦啦啦啦啦啦！！！” 。</p>
+<p>qqbotsched 装饰器接受 year, month, day, week, day_of_week, hour, minute, second, start_date, end_date, timezone 共计 11 个关键字参数，每个参数表示任务的定制时间的分量所应匹配的值。例如： hour='11,17' 表示应在 11:xx 或 17:xx 执行任务， minute='55' 表示应在 xx:55 执行任务， minute='0-55/5' 表示应在 xx:00, xx:05, xx:10, ..., xx:55 执行任务， day_of_week='mon-fri' （或 '0-4' ） 表示应在 星期一 ~ 星期五 执行任务。</p>
+<p>qqbotsched 是对 Python 的定时任务框架 apscheduler 的简单封装，其各项参数应采用 Unix 系统中的 crontab 格式输入。有关 crontab 以及 Python 的定时任务框架 apscheduler 的内容可参见以下参考资料：</p>
+<ul>
+<li><a href="https://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800/" rel="nofollow">https://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800/</a></li>
+<li><a href="http://apscheduler.readthedocs.io/en/latest/userguide.html" rel="nofollow">http://apscheduler.readthedocs.io/en/latest/userguide.html</a></li>
+<li><a href="https://lz5z.com/Python%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/" rel="nofollow">https://lz5z.com/Python定时任务的实现方式/</a></li>
+<li><a href="http://debugo.com/apscheduler/" rel="nofollow">http://debugo.com/apscheduler/</a></li>
+</ul>
+<p>crontab 各项参数格式说明详见：</p>
+<ul>
+<li><a href="http://apscheduler.readthedocs.io/en/latest/modules/triggers/cron.html" rel="nofollow">http://apscheduler.readthedocs.io/en/latest/modules/triggers/cron.html</a></li>
+</ul>
+<h4><a id="user-content-注册回调函数和定制定时任务的注意事项" class="anchor" aria-hidden="true" href="#注册回调函数和定制定时任务的注意事项"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>注册回调函数和定制定时任务的注意事项</h4>
+<p>注册回调函数和定制定时任务是对 QQBot 进行扩展的唯一方式，在编写这些函数时，请注意以下事项：</p>
+<ul>
+<li>回调函数的函数名、参数名、参数数量、参数顺序都不得更改</li>
+<li>定时任务的函数名可以自己定义，但参数有且只有一个，参数名必须为 bot ，为一个 QQBot 对象。</li>
+<li>所有回调函数和定时任务都将在主线程中被依次调用，因此不必担心全局变量的线程安全问题。</li>
+<li>回调函数和定时任务的运行时间应尽量短，尽量不要再这些函数中进行阻塞式的操作，否则会阻塞整个程序的运行。一般来说，每个函数的运行时间在 5 秒以内是可以接受的。</li>
+<li><strong>绝对不要</strong> 在回调函数、定时任务或 qqbot 主线程的内部调用 os.system 执行 <strong>本 QQ 号对应的 qq 命令</strong> （ 如 os.system('qq send buddy jack hello') ）或请求 <strong>本 QQ 号对应的 HTTP-API 接口</strong> ，否则整个程序会形成死锁（因为 os.system 要等 qq 命令执行完成后才返回、而 qq 命令要等 os.system 返回后才会被执行）。请直接使用 bot 的 SendTo/List 等接口。</li>
+</ul>
+<h2><a id="user-content-七二维码管理器qqbot-配置命令行参数以及工作目录" class="anchor" aria-hidden="true" href="#七二维码管理器qqbot-配置命令行参数以及工作目录"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>七、二维码管理器、QQBot 配置、命令行参数以及工作目录</h2>
+<h4><a id="user-content-二维码的显示模式" class="anchor" aria-hidden="true" href="#二维码的显示模式"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>二维码的显示模式</h4>
+<p>WebQQ 登录时需要用手机 QQ 扫描二维码图片，在 QQBot 中，二维码图片可以通过以下四种模式显示：</p>
+<ul>
+<li>GUI模式： 在 GUI 界面中自动弹出二维码图片</li>
+<li>邮箱模式： 将二维码图片发送到指定的邮箱</li>
+<li>服务器模式： 在一个 HTTP 服务器中显示二维码图片</li>
+<li>文本模式： 在 Term 中以文本形式展示二维码(需要自行安装 pillow 和 wcwidth 库)</li>
+</ul>
+<p>GUI 模式是默认的模式，只适用于个人电脑。邮箱模式可以适用于个人电脑和远程服务器。服务器模式一般只在有公网 ip 的系统中使用。如果使用 QQ 邮箱来接收二维码，则发送二维码图片之后，手机 QQ 客户端会立即收到通知，在手机 QQ 客户端上打开邮件，再长按二维码就可以扫描了。文本模式方便在开发过程或者服务器部署时使用，为开发者提供快捷方式登陆 QQ 。</p>
+<p>注意：当开启了 邮箱模式/服务器模式/文本模式 时， GUI 模式是关闭的，登陆时不会自动弹出二维码图片。</p>
+<p>每次登录时会创建一个二维码管理器 （ QrcodeManager 对象） ，二维码管理器会根据配置文件及命令行参数来选择二维码图片的显示方式。</p>
+<h4><a id="user-content-配置文件的使用方法" class="anchor" aria-hidden="true" href="#配置文件的使用方法"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>配置文件的使用方法</h4>
+<p>配置文件为 <strong>~/.qqbot-tmp/v2.x.conf</strong> （ <strong>~</strong> 代表用户主目录， win7 下为 C:\Users\xxx ， linux 下为 /home/xxx ），第一次运行 QQBot 后就会自动创建这个配置文件，其中内容如下：</p>
+<pre><code>{
+
+    # QQBot 的配置文件
+    # 使用 qqbot -u somebody 启动程序时，依次加载：
+    #     根配置 -&gt; 默认配置 -&gt; 用户 somebody 的配置 -&gt; 命令行参数配置
+    # 使用 qqbot 启动程序时，依次加载：
+    #     根配置 -&gt; 默认配置 -&gt; 命令行参数配置
+    
+    # 用户 somebody 的配置
+    "somebody" : {
+        
+        # QQBot-term （HTTP-API） 服务器端口号（该服务器监听 IP 为 127.0.0.1 ）
+        # 设置为 0 则不会开启本服务器（此时 qq 命令和 HTTP-API 接口都无法使用）。
+        "termServerPort" : 8188,
+        
+        # 二维码 http 服务器 ip，请设置为公网 ip 或空字符串
+        "httpServerIP" : "",
+        
+        # 二维码 http 服务器端口号
+        "httpServerPort" : 8189,
+        
+        # 自动登录的 QQ 号
+        "qq" : "3497303033",
+        
+        # 接收二维码图片的邮箱账号
+        "mailAccount" : "3497303033@qq.com",
+        
+        # 该邮箱的 IMAP/SMTP 服务授权码
+        "mailAuthCode" : "feregfgftrasdsew",
+        
+        # 是否以文本模式显示二维码
+        "cmdQrcode" : False,
+    
+        # 显示/关闭调试信息
+        "debug" : False,
+
+        # QQBot 掉线后自动重启
+        "restartOnOffline" : False,
+        
+        # 在后台运行 qqbot ( daemon 模式)
+        "daemon": False,
+        
+        # 完成全部联系人列表获取之后才启动 QQBot 
+        "startAfterFetch" : False,
+        
+        # 插件目录
+        "pluginPath" : ".",
+        
+        # 启动时需加载的插件
+        "plugins" : [],
+        
+        # 插件的配置（由用户自定义）
+        "pluginsConf" : {},
+    
+    },
+    
+    # 可以在 默认配置 中配置所有用户都通用的设置
+    "默认配置" : {
+        "qq" : "",
+        "pluginPath" : "",
+        "plugins" : [
+            'qqbot.plugins.sampleslots',
+            'qqbot.plugins.schedrestart',
+        ],
+        "pluginsConf" : {
+            'qqbot.plugins.schedrestart': '8:00',
+        }
+    },
+    
+    # # 注意：根配置是固定的，用户无法修改（在本文件中修改根配置不会生效）
+    # "根配置" : {
+    #     "termServerPort" : 8188,
+    #     "httpServerIP" : "",
+    #     "httpServerPort" : 8189,
+    #     "qq" : "",
+    #     "mailAccount" : "",
+    #     "mailAuthCode" : "",
+    #     "cmdQrcode" : False,
+    #     "debug" : False,
+    #     "restartOnOffline" : False,
+    #     "daemon" : False,
+    #     "startAfterFetch" : False,
+    #     "pluginPath" : "",
+    #     "plugins" : [],
+    #     "pluginsConf" : {}
+    # },
+
+}
+</code></pre>
+<p>可以在配置文件中添加自己的用户配置（即在该文件的字典中新增一个 item ，此 item 的 key 就代表一个用户），例如，该文件中已有的 somebody 项目就代表名为 somebody 的用户，运行 QQBot 时，输入 <strong>qqbot -u somebody</strong> ，则会加载 somebody 项目下的各项配置。</p>
+<p>下面介绍配置文件中各项配置的功能，以下内容均假定已修改了 somebody 下的配置，且以 <strong>qqbot -u somebody</strong> 的方式运行。</p>
+<h4><a id="user-content-邮箱模式的配置-mailaccount-和-mailauthcode-" class="anchor" aria-hidden="true" href="#邮箱模式的配置-mailaccount-和-mailauthcode-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>邮箱模式的配置（ mailAccount 和 mailAuthCode ）</h4>
+<p>如果需要使用邮箱模式显示二维码，可以将 mailAccount 和 mailAuthCode 项中分别设置为邮箱帐号和授权码，运行后，二维码管理器会将二维码图片发送至该邮箱。</p>
+<p>注意：授权码不是邮箱的登录密码，而是邮箱服务商提供的开通 <strong>IMAP/SMTP</strong> 服务的授权码（提醒：不是 <strong>POP3/SMTP</strong> 服务）， QQ/网易 邮箱可以在网页版的邮箱设置里面开通此项服务，并得到授权码。如果只定义了 mailAccount 而没定义 mailAuthCode ，则程序运行的开始时会要求手工输入此授权码。</p>
+<p>邮箱模式已在 QQ 、 网易 和 Google 邮箱中测试过。</p>
+<h4><a id="user-content-服务器模式的配置-httpserverip-和-httpserverport-" class="anchor" aria-hidden="true" href="#服务器模式的配置-httpserverip-和-httpserverport-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>服务器模式的配置（ httpServerIP 和 httpServerPort ）</h4>
+<p>如果需要使用服务器模式，可以配置 httpServerIP 和 httpServerPort 项，一般来说应该设置为公网 ip 。服务器模式开启后，可以通过 http://{httpServerIP}:{httpServerPort}/{any} 来访问二维码图片。其中 {any} 可以是任何非空的数字或字母串。</p>
+<p>当邮箱模式和服务器模式同时开启时，发邮件时不会发送真正的图片，只会将图片地址发到邮箱中去，而且只发送一次，二维码过期时刷新一下邮件就可以了。如果只开启邮箱模式，则发邮件时会发送真正的图片，当二维码过期时，需要将邮件设置为已读（用手机 QQ 点开邮件后该邮件就是已读了），之后才会发送最新的二维码图片。</p>
+<h4><a id="user-content-文本模式显示二维码cmdqrcode" class="anchor" aria-hidden="true" href="#文本模式显示二维码cmdqrcode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>文本模式显示二维码（cmdQrcode）</h4>
+<p>若 cmdQrcode 项设置为 True ，则会在 term 中以文本模式显示二维码。注意：要使用文本模式，需要自行安装 pillow 和 wcwidth 库，可使用 pip 安装。</p>
+<h4><a id="user-content-自动登录的-qq-号码-qq-" class="anchor" aria-hidden="true" href="#自动登录的-qq-号码-qq-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>自动登录的 QQ 号码（ qq ）</h4>
+<p>配置文件中每个用户都有 qq 这一项，若此项已设置为某 QQ 号码，则 QQBot 在启动时会先使用此 QQ 号上次登录保存的登录信息来自动登录。</p>
+<h4><a id="user-content-掉线后自动重启-restartonoffline-" class="anchor" aria-hidden="true" href="#掉线后自动重启-restartonoffline-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>掉线后自动重启（ restartOnOffline ）</h4>
+<p>如果配置文件中将 restartOnOffline 项设置为 True ，则当 QQBot 掉线或出错终止时，会自动重新启动 QQBot 。</p>
+<h4><a id="user-content-在后台运行-qqbot--daemon-" class="anchor" aria-hidden="true" href="#在后台运行-qqbot--daemon-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>在后台运行 qqbot （ daemon ）</h4>
+<p>此选项仅在 UNIX 类系统中有效，将配置中的 daemon 选项设置为 True 则会以 daemon 模式运行程序。此时，标准输出和标准错误会重定向到 daemon-$qq.log 文件（其中 $qq 是配置中 qq 选项的值）。</p>
+<h4><a id="user-content-联系人列表获取完成后再启动-startafterfetch-" class="anchor" aria-hidden="true" href="#联系人列表获取完成后再启动-startafterfetch-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>联系人列表获取完成后再启动（ startAfterFetch ）</h4>
+<p>一般情况下，扫码登录完成就立即启动 QQBot，只有在需要的时候才会去获取联系人列表并更新联系人数据库。如果将配置文件中的 startAfterFetch 设置为 True ，则 <strong>QQBot 会等待所有联系人列表获取完成后才启动</strong> ，注意，如果联系人较多，会耗费较长的时间。</p>
+<h4><a id="user-content-qqbot-term-服务器端口号-termserverport-" class="anchor" aria-hidden="true" href="#qqbot-term-服务器端口号-termserverport-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>QQBot-term 服务器端口号（ termServerPort ）</h4>
+<p>QQBot 启动后，会开启一个 QQBot-term 服务器监听用户通过 qq 命令行工具发过来的操作命令以及通过 HTTP API 接口发过来的操作命令，此服务器的监听 IP 永远为 127.0.0.1 ，监听端口号默认为 8188 ，可以通过修改 termServerPort 的值来修改此端口号。</p>
+<p>如果配置的 QQBot-term 服务器端口号不是默认的 8188 ，那么在运行 qq 命令时，需要在第一个参数中指定端口号，如：</p>
+<pre><code>$ qq 8100 send buddy jack hello
+$ qq 8100 list group-member chatbot
+</code></pre>
+<p>同样，HTTP API 接口的端口号也需要改变，如： <a href="http://127.0.0.1:8100/send/buddy/jack/hello" rel="nofollow">http://127.0.0.1:8100/send/buddy/jack/hello</a> 。</p>
+<p>如果不需要使用 qq 命令和 HTTP-API 接口，可以将此端口号设置为 0 ，此时 QQBot-term 服务器不会开启。</p>
+<p>如果需要在同一台机器上登录多个 QQ 号码，可以直接在不同的终端中开启多个 qqbot 进程进行登录，但是，每个 qqbot 进程必须设置专有的 termServerPort 和 httpServerPort （或者全部设置为 0 或 空值 ），否则会造成端口号冲突。</p>
+<h4><a id="user-content-调试模式-debug-" class="anchor" aria-hidden="true" href="#调试模式-debug-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>调试模式（ debug ）</h4>
+<p>若 debug 项设置为 True ，则运行过程中会打印调试信息。</p>
+<h4><a id="user-content-插件的配置-pluginpath-和-plugins-" class="anchor" aria-hidden="true" href="#插件的配置-pluginpath-和-plugins-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件的配置（ pluginPath 和 plugins ）</h4>
+<p>一般情况下，插件需要存放在系统的 import 目录下或 ~/.qqbot-tmp/plugins 目录下，可以在 pluginPath 选项中配置其他的存放目录。另外，在 plugins 选项中可以指定 QQBot 启动时需要加载的插件。</p>
+<h4><a id="user-content-命令行参数及配置的优先级" class="anchor" aria-hidden="true" href="#命令行参数及配置的优先级"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>命令行参数及配置的优先级</h4>
+<p>配置文件中的所有选项都有对应的命令行参数，在命令行参数中输入的选项优先级比配置文件高。输入 <strong>qqbot -h</strong> 可查看所有命令行参数格式。</p>
+<p>程序一共有四个级别的配置，其优先级如下：</p>
+<pre><code>使用 qqbot -u somebody 启动程序时，依次加载：
+    根配置 -&gt; 默认配置 -&gt; 用户 somebody 的配置 -&gt; 命令行参数配置
+
+使用 qqbot 启动程序时，依次加载：
+    根配置 -&gt; 默认配置 -&gt; 命令行参数配置
+</code></pre>
+<p>其中：根配置 是固定的，用户无法修改； 默认配置 和 用户配置 可由用户在 v2.x.conf 文件中进行修改；最后，还可以在 命令行参数 中输入配置。</p>
+<h4><a id="user-content-工作目录" class="anchor" aria-hidden="true" href="#工作目录"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>工作目录</h4>
+<p>qqbot 运行时，会在 工作目录 下 搜索/创建 以下 文件/目录 ：</p>
+<ul>
+<li>配置文件： v2.x.conf</li>
+<li>插件目录： plugins/</li>
+<li>登录文件： v2.x-pyx-xxxx.pickle</li>
+<li>联系人数据库文件： 2017-05-06-20-03-12-xxxx-contact.db</li>
+<li>临时二维码图片： xxxx.png</li>
+<li>保存QQ的文件： qq(pid9816)</li>
+<li>以 daemon 模式运行时的 log 文件： daemon-xxx.log</li>
+</ul>
+<p>默认的工作目录为 ~/.qqbot-tmp/ ，可以在启动 qqbot 时通过命令行参数 -b|--bench 指定其他工作目录，例如： qqbot -b bench 。</p>
+<h2><a id="user-content-八-插件" class="anchor" aria-hidden="true" href="#八-插件"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>八、 插件</h2>
+<h4><a id="user-content-插件的存放位置" class="anchor" aria-hidden="true" href="#插件的存放位置"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件的存放位置</h4>
+<p>插件实际上是一个 python 模块，因此可以是一个 python 文件，也可以是一个 python package。 qqbot 会根据插件名在以下目录中搜索插件：</p>
+<ul>
+<li>配置中的 pluginPath 选项（命令行参数 -pp|--pluginPath ）指定的目录</li>
+<li>工作目录下的 plugins 目录</li>
+<li>python 的导入目录</li>
+</ul>
+<h4><a id="user-content-插件的加载卸载" class="anchor" aria-hidden="true" href="#插件的加载卸载"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件的加载/卸载</h4>
+<p><strong>hot-plug 方式</strong></p>
+<p>可以在 qqbot 的运行过程中动态的加载/卸载插件，有以下三种方法：</p>
+<ul>
+<li>利用 qq 命令行工具： qq plug pluginname 或 qq unplug pluginname</li>
+<li>利用 http-api 接口： <a href="http://127.0.0.1:8188/plug/pluginname" rel="nofollow">http://127.0.0.1:8188/plug/pluginname</a> 或 <a href="http://127.0.0.1:8188/unplug/pluginname" rel="nofollow">http://127.0.0.1:8188/unplug/pluginname</a></li>
+<li>利用 bot 对象的接口： bot.Plug('pluginname') 或 bot.Unplug('pluginname')</li>
+</ul>
+<p>前面两种方法是供 qqbot 进程的外部进程调用的，第三种方法是在 qqbot 进程内部使用的。请勿在 qqbot 进程的内部使用前面两种方法。</p>
+<p>注意：采用 hot-plug 方式加载的插件在 qqbot 重启后会丢失。</p>
+<p><strong>auto-plug-at-start 方式</strong></p>
+<p>也可以在 qqbot 的启动时自动加载插件，在配置中的 plugins 选项（命令行参数 -pl|--plugins ）中指定需要加载的插件名就可以了。这些插件将在启动时、登录之前被加载。</p>
+<p>另外，如果系统中（或插件目录中）存在名为 <strong>qqbotdefault</strong> 的 package ，那么该 package 下面的所有子模块都会被当成插件在启动时自动加载（注意：qqbotdefault 本身不会作为插件加载）。</p>
+<h4><a id="user-content-插件内的-onplug-和-onunplug-回调函数" class="anchor" aria-hidden="true" href="#插件内的-onplug-和-onunplug-回调函数"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件内的 onPlug 和 onUnplug 回调函数</h4>
+<ul>
+<li>插件被加载时，会执行 reload(pluginName) ，因此插件内的所有代码都会被执行一次</li>
+<li>当采用 hot-plug 的方式加载时，插件内的 onPlug 函数会紧接在 reload 成功后被执行</li>
+<li>当采用 auto-plug-at-start 方式加载时，插件在启动时、登录之前被加载，但插件内的 onPlug 函数会延迟到登录成功后才被执行</li>
+<li>插件被卸载时，插件内的 onUnplug 被执行</li>
+</ul>
+<h4><a id="user-content-插件的编写" class="anchor" aria-hidden="true" href="#插件的编写"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件的编写</h4>
+<p>编写插件主要就是编写回调函数或定时任务函数，详见 <a href="https://github.com/pandolia/qqbot#%E5%9B%9B%E5%AE%9E%E7%8E%B0%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84-qq-%E6%9C%BA%E5%99%A8%E4%BA%BA">第四~六节</a> 。</p>
+<h4><a id="user-content-插件列表" class="anchor" aria-hidden="true" href="#插件列表"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>插件列表</h4>
+<table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">github作者</th>
+<th align="left">功能说明</th>
+<th align="left">是否默认加载</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/pandolia/qqbot/blob/master/qqbot/plugins/sampleslots.py">qqbot.plugins.sampleslots</a></td>
+<td align="left"><a href="https://github.com/pandolia">pandolia</a></td>
+<td align="left">回调函数示例</td>
+<td align="left">是</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pandolia/qqbot/blob/master/qqbot/plugins/schedrestart.py">qqbot.plugins.schedrestart</a></td>
+<td align="left"><a href="https://github.com/pandolia">pandolia</a></td>
+<td align="left">定时重启</td>
+<td align="left">是</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pandolia/qqbot/blob/master/qqbot/plugins/miniirc.md">qqbot.plugins.miniirc</a></td>
+<td align="left"><a href="https://github.com/pandolia">pandolia</a></td>
+<td align="left">IRC服务器</td>
+<td align="left">否</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pandolia/qqbot/blob/master/qqbot/plugins/passwordlogin.py">passwordlogin</a></td>
+<td align="left"><a href="https://github.com/pandolia">pandolia</a></td>
+<td align="left">使用用户名-密码登录</td>
+<td align="left">否</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/feisuweb/qqbot-plugins/tree/master/adblock.py">adblock</a></td>
+<td align="left"><a href="https://github.com/feisuweb">feisuweb</a></td>
+<td align="left">群广告拦截</td>
+<td align="left">否</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/feisuweb/qqbot-plugins/blob/master/chatlog.py">chatlog</a></td>
+<td align="left"><a href="https://github.com/feisuweb">feisuweb</a></td>
+<td align="left">聊天内容记录</td>
+<td align="left">否</td>
+</tr></tbody></table>
+<p>如果您有好用的插件分享，欢迎发邮件给我。</p>
+<h2><a id="user-content-九-命令行模式下使用-irc-聊天" class="anchor" aria-hidden="true" href="#九-命令行模式下使用-irc-聊天"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>九、 命令行模式下使用 IRC 聊天</h2>
+<p>linux 系统下，由于无法使用 QQ 客户端，可以使用插件 qqbot.plugins.miniirc 来实现用 IRC 聊天的功能。加载方式： qq plug qqbot.plugins.miniirc ，或启动时加载： qqbot -pl qqbot.plugins.miniirc ，或者在配置文件中的 plugins 选项中加入 <code>qqbot.plugins.miniirc</code> 。</p>
+<p>插件加载后将在 6667 端口开启一个微型的 IRC 服务器，用户可以使用 IRC 客户端（如 weechat, irssi 等）连接此服务器来实现命令行模式下的聊天。以下以 weechat 为例介绍使用方法：</p>
+<pre><code>启动 weechat ： weechat
+
+连接本服务器： /connect localhost
+
+进入 群聊天 会话： /join group-name
+
+进入 讨论组聊天 会话： /join !discuss-name
+
+进入 好友聊天 会话： /query buddy-name
+
+进入 聊天会话 后，直接敲入文本并回车就可以向对方发送消息了。所有接收到的 QQ 消息也会被转发给相应的 聊天会话 。
+
+在聊天会话之间切换： ctrl+P 或 ctrl+N
+
+显示所有 群和讨论组 的名称： /list
+</code></pre>
+<p>以上几乎就是此微型 IRC 服务器所提供的所有功能了，但已经足够用来和 QQ 好友/群/讨论组 聊天了。</p>
+<h2><a id="user-content-十-smartqq-协议支持及限制" class="anchor" aria-hidden="true" href="#十-smartqq-协议支持及限制"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>十、 smartqq 协议支持及限制</h2>
+<h4><a id="user-content-本项目已实现绝大部分-smartqq-协议支持的功能如下" class="anchor" aria-hidden="true" href="#本项目已实现绝大部分-smartqq-协议支持的功能如下"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>本项目已实现绝大部分 smartqq 协议支持的功能，如下：</h4>
+<ul>
+<li>消息收/发</li>
+<li>联系人（包括 好友/群/讨论组/群成员/讨论组成员）资料获取和查询（包括 昵称/名称/备注名）</li>
+<li>联系人资料根据需要动态更新</li>
+<li>被群内其他成员 @ 的通知</li>
+<li>发送、接收表情（详见 <a href="https://github.com/pandolia/qqbot/blob/master/qqbot/facemap.py">facemap.py</a>）</li>
+<li>可以获取到自身发送的 好友/群/讨论组 消息。但若是自身发送的 好友 消息，只能获取消息文本，无法知道该消息发送给谁。</li>
+</ul>
+<h4><a id="user-content-其他功能" class="anchor" aria-hidden="true" href="#其他功能"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>其他功能：</h4>
+<ul>
+<li>调用系统默认图片浏览器显示登录二维码、将登录二维码发送至邮箱、开启一个 http 服务器用来显示登录二维码、在命令行窗口使用文本模式显示二维码</li>
+<li>用 qq 命令行工具发消息、查询|更新联系人</li>
+<li>提供 HTTP-API 接口发消息、查询|更新联系人</li>
+<li>提供 miniirc 插件，可以在命令行模式下使用 IRC 客户端聊天</li>
+<li>掉线后自动重启功能（有时需要手工扫码）</li>
+<li>定时执行任务（通过 qqbotsched 实现）</li>
+</ul>
+<h4><a id="user-content-因-smartqq-协议的限制以下问题尚无完美的解决方法" class="anchor" aria-hidden="true" href="#因-smartqq-协议的限制以下问题尚无完美的解决方法"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>因 smartqq 协议的限制，以下问题尚无完美的解决方法：</h4>
+<ul>
+<li>无法长时间保持在线状态，每次登录成功后的 cookie 会每在 1 ~ 2 天后失效，将被腾讯服务器强制下线，此时 <strong>必须</strong> 重新登录。可以打开邮箱模式和自动重启模式，并配合 qqbot.plugins.schedrestart 插件使用，每天在固定的时间 <strong>手工扫码</strong> 登录一次，基本上可以稳定的保持在线状态。</li>
+<li>无法发送图片、文件、音频、 xml 卡片消息</li>
+<li>无法获取到联系人的实际 QQ</li>
+<li>无法在群内 @ 其他成员，即便用本程序在群里发送了 “@jack xxx” 这样的消息， jack 也只能收到这个纯文本，收不到“有人@我”的提醒。</li>
+<li>无法向 群/讨论组 内的其他非好友成员发消息，也无法收到非好友成员发过来的临时会话消息</li>
+<li>在非常少的情况下，发消息时会重复发送多次，也可能对方已收到消息但返回发送失败的结果</li>
+</ul>
+<h2><a id="user-content-十一其他" class="anchor" aria-hidden="true" href="#十一其他"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>十一、其他</h2>
+<ul>
+<li><a href="https://github.com/pandolia/qqbot/blob/master/faq.md">常见问题</a></li>
+<li><a href="https://github.com/pandolia/qqbot/blob/master/changes">更新日志</a></li>
+</ul>
+<h2><a id="user-content-十二参考资料" class="anchor" aria-hidden="true" href="#十二参考资料"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>十二、参考资料</h2>
+<p>QQBot 参考了以下开源项目：</p>
+<ul>
+<li><a href="https://github.com/ScienJus/qqbot">ScienJus/qqbot</a> (ruby)</li>
+<li><a href="https://github.com/floatinghotpot/qqbot">floatinghotpot/qqbot</a> (node.js)</li>
+<li><a href="https://github.com/sjdy521/Mojo-Webqq">sjdy521/Mojo-Webqq</a> (perl)</li>
+</ul>
+<p>在此感谢以上三位作者的无私分享，特别是感谢 ScienJus 对 SmartQQ 协议所做出的深入细致的分析。</p>
+<h2><a id="user-content-十三反馈" class="anchor" aria-hidden="true" href="#十三反馈"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>十三、反馈</h2>
+<p>有任何问题或建议可以发邮件给我 <a href="mailto:pandolia@yeah.net">pandolia@yeah.net</a> ，或者直接提 issue ，也可以加 QQ 群： 577126408 。但还是希望您在提问之前通读一下本文档，很有可能您想要的答案已经在文档中了。</p>
+</article>
+      </div>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.19909s from unicorn-75ff74bb6b-2f2rn">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-BlCeoZU+kjn7xucWZBcl0n4Bn0P8dE19/sUfLHOxySQnsoy3ufEzapurMbZWSlwab5KGfnp1X5ipJvUDMLroqw==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-0f98b12d09f3ba331eef956ab02996e3.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-MvNlmXbTAwL0N0zMxw8W6vtjWLf0QFvwVzvN8rZIJNdzFy9OJp2d4LQD9WA2rDNcHewz0PB9x/0G0Z9FOuUWgw==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-a2f69f341e3df821fdcb56e335ef9920.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-aiJhsd3F/nIIVsgCX22VmKOUIWfz4zL18eKhdl14lKs8P0jrCG6469JlLXT2l4T6GtWxw7M+Am8Zc2DRJu4Wcw==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-9ddb0f104fdb4def01f1dc9ba427120b.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
